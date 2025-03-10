@@ -1,5 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-305384695353388338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c7e90f1cbcb874da2c6698363fc507, type: 3}
+  m_Name: BenDayRendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  bloomShader: {fileID: 4800000, guid: 4d5c38108ebd74b44a3662dfa68b97b5, type: 3}
+  compositeShader: {fileID: -6465566751694194690, guid: 0d6ac41d93ba018458fb91447e674f4e, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26,8 +41,8 @@ MonoBehaviour:
     probeVolumeBlendStatesCS: {fileID: 7200000, guid: b9a23f869c4fd45f19c5ada54dd82176, type: 3}
   m_RendererFeatures:
   - {fileID: 7833122117494664109}
-  - {fileID: 5266479179082595193}
-  m_RendererFeatureMap: ad6b866f10d7b46c797b350ee94a1649
+  - {fileID: -305384695353388338}
+  m_RendererFeatureMap: ad6b866f10d7b46cced29ed13c0ec3fb
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -65,7 +80,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81c7e90f1cbcb874da2c6698363fc507, type: 3}
   m_Name: BenDayRendererFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   bloomShader: {fileID: 0}
   compositeShader: {fileID: 0}
 --- !u!114 &7833122117494664109
